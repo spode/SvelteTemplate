@@ -1,3 +1,8 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+html,
+body {
+    @apply antialiased h-full dark:bg-gray-950 dark:text-gray-100 text-black bg-white
+}
